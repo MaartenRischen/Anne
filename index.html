@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anne R. Allen's Blog... with Ruth Harris — Writing about writing. Mostly.</title>
+  <meta name="description" content="A blog helping writers navigate the shifting publishing industry, from established professionals to beginners.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span>Est. 2009 &middot; Weekly on Sundays</span>
+      <div class="top-bar__social">
+        <a href="https://bsky.app/profile/annerallen.bsky.social" aria-label="Bluesky"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z"/></svg></a>
+        <a href="https://www.facebook.com/Anne-R-Allen-Author-246957215353670/" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.pinterest.com/annerallen1/" aria-label="Pinterest"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.3 9.3-.1-.8-.2-2 0-2.9.2-.8 1.3-5.4 1.3-5.4s-.3-.7-.3-1.6c0-1.5.9-2.7 2-2.7.9 0 1.4.7 1.4 1.5 0 .9-.6 2.3-.9 3.6-.3 1.1.5 2 1.6 2 1.9 0 3.4-2 3.4-5 0-2.6-1.9-4.4-4.5-4.4-3.1 0-4.9 2.3-4.9 4.7 0 .9.4 1.9.8 2.5.1.1.1.2.1.3-.1.3-.3 1.1-.3 1.2-.1.2-.2.3-.4.2-1.3-.6-2.1-2.5-2.1-4 0-3.3 2.4-6.3 6.9-6.3 3.6 0 6.4 2.6 6.4 6 0 3.6-2.3 6.5-5.4 6.5-1.1 0-2.1-.6-2.4-1.2l-.7 2.5c-.2.9-.8 2-1.2 2.6.9.3 1.9.4 2.9.4 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg></a>
+        <a href="https://annerallen.com/feed" aria-label="RSS"><svg viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-header__title"><a href="index.html">Anne R. Allen's Blog<span style="font-weight:400; font-style:italic">... with Ruth Harris</span></a></h1>
+      <p class="site-header__tagline">Writing about writing. Mostly.</p>
+      <div class="site-header__ornament">
+        <hr><span>&diams;</span><hr>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div class="container">
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-list').classList.toggle('active')">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li>
+          <a href="about.html">About</a>
+          <ul class="nav-dropdown">
+            <li><a href="about.html">About This Blog</a></li>
+            <li><a href="about.html#anne">Anne R. Allen</a></li>
+            <li><a href="about.html#ruth">Ruth Harris</a></li>
+            <li><a href="about.html#shirley">Shirley S. Allen</a></li>
+          </ul>
+        </li>
+        <li><a href="archives.html">Archives</a></li>
+        <li>
+          <a href="books.html">Books</a>
+          <ul class="nav-dropdown">
+            <li><a href="books.html#anne-books">Books by Anne</a></li>
+            <li><a href="books.html#ruth-books">Books by Ruth</a></li>
+          </ul>
+        </li>
+        <li><a href="guest-bloggers.html">Guest Bloggers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="how-to-get-published.html">Get Published</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Navigating the Publishing World Together</h1>
+      <p>Since 2009, helping writers at every stage of their journey with practical advice on craft, publishing, and the writing life.</p>
+      <a href="#posts" class="hero__cta">Read Latest Posts</a>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="site-content" id="posts">
+    <main class="main-content">
+
+      <!-- Featured Post -->
+      <article class="post-card post-card--featured animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2026/03/Scream-mask-700x300.jpg" alt="Amplifying Tension in Fear-Driven Scenes">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Writing Craft</span>
+            <span>March 14, 2026</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">9 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2026/03/amplifying-tension-in-fear-driven-scenes/">Amplifying Tension in Fear-Driven Scenes</a></h2>
+          <p class="post-card__excerpt">Guest post by Becca Puglisi exploring fear as a potent storytelling tool. Covers techniques like foreshadowing, hidden threats, symbolism, weather, contrast, sensory details, and false flags to amplify tension.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Becca Puglisi</strong> (Guest Post)</span>
+            <a href="https://annerallen.com/2026/03/amplifying-tension-in-fear-driven-scenes/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 2 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2026/02/mohamed-nohassi-robot-writing-unsplash-700x300.jpg" alt="AI Storytelling vs. Human">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Publishing</span>
+            <span>February 28, 2026</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">27 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2026/02/writing-contest-pitting-human-against-ai-storytelling/">AI Storytelling vs. Human: Who Writes Better? 5 Takeaways</a></h2>
+          <p class="post-card__excerpt">Guest post by Dr. Jeremy Esekow describing Storywise's writing competition pitting humans against AI. Key takeaways: human dialogue is superior, AI struggles with pacing, and distinctive voice matters.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Dr. Jeremy Esekow</strong> (Guest Post)</span>
+            <a href="https://annerallen.com/2026/02/writing-contest-pitting-human-against-ai-storytelling/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 3 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2026/02/Girl-lost-in-balloon-forest-by-Kyra-Starr-700x300.jpg" alt="Newbie Writer Mistakes">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Writing Craft</span>
+            <span>February 14, 2026</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">14 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2026/02/new-writers-are-you-making-any-of-these-4-mistakes/">New Writers &mdash; Are You Making Any of These 4 Newbie Writer Mistakes?</a></h2>
+          <p class="post-card__excerpt">Identifies four common mistakes new writers make: seeking feedback from wrong people, editing too soon, rewriting prematurely, and forgetting first drafts are personal.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Anne R. Allen</strong></span>
+            <a href="https://annerallen.com/2026/02/new-writers-are-you-making-any-of-these-4-mistakes/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 4 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2026/01/wolf-pack-700x300.jpg" alt="Stay Safe from Scammers">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Scam Alerts</span>
+            <span>January 31, 2026</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">23 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2026/01/stay-safe-from-scammers/">10 Facts Writers Need to Know to Stay Safe from Scammers</a></h2>
+          <p class="post-card__excerpt">Updated post warning about increasingly sophisticated scams targeting writers. Covers 10 critical facts including that famous authors don't contact unknowns and traditional publishing is free.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Anne R. Allen</strong></span>
+            <a href="https://annerallen.com/2026/01/stay-safe-from-scammers/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 5 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2026/01/fraud-prevention-by-Mohamed-hassan-700x300.jpg" alt="Scam Alerts for Authors">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Scam Alerts</span>
+            <span>January 17, 2026</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">44 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2026/01/new-scam-alerts-for-authors/">New Scam Alerts for Authors</a></h2>
+          <p class="post-card__excerpt">Warns about proliferating scams including the Amazon Visibility Penalty Scam, AI-Generated Book Praise Scams, and Impersonation Scams targeting writers.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Anne R. Allen</strong></span>
+            <a href="https://annerallen.com/2026/01/new-scam-alerts-for-authors/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 6 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2026/01/First-Date-by-Sasin-Tipchai-700x300.jpg" alt="Characters Making First Impression">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Writing Craft</span>
+            <span>January 3, 2026</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">33 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2026/01/fictional-characters-making-first-impression/">Are Your Fictional Characters Making the Right First Impression?</a></h2>
+          <p class="post-card__excerpt">Uses a personal anecdote to illustrate how crucial initial character introductions are in fiction. Advises using sensory details, distinctive characteristics, and brief but memorable introductions.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Anne R. Allen</strong></span>
+            <a href="https://annerallen.com/2026/01/fictional-characters-making-first-impression/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 7 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2025/12/Stonehenge-Solstice-700x300.jpg" alt="Happy Solstice">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">The Writing Life</span>
+            <span>December 20, 2025</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">36 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2025/12/happy-solstice-may-your-writing-be-merry-and-bright/">Happy Solstice! May Your Writing be Merry and Bright</a></h2>
+          <p class="post-card__excerpt">Winter solstice reflections on writing during dark times, gratitude, and reveals a new Camilla Randall mystery in progress: Mrs. Rodriguez is Not Sorry.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Anne R. Allen</strong></span>
+            <a href="https://annerallen.com/2025/12/happy-solstice-may-your-writing-be-merry-and-bright/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 8 -->
+      <article class="post-card animate-in">
+        <img class="post-card__image" src="https://annerallen.com/wp-content/uploads/2025/09/woman-writing-700x300.jpg" alt="Writing the Final Chapter">
+        <div class="post-card__body">
+          <div class="post-card__meta">
+            <span class="post-card__category">Writing Craft</span>
+            <span>December 13, 2025</span>
+            <span>&middot;</span>
+            <span class="post-card__comments">40 Comments</span>
+          </div>
+          <h2 class="post-card__title"><a href="https://annerallen.com/2025/12/writing-the-final-chapter/">Writing the Final Chapter: How to Write a Satisfying Ending</a></h2>
+          <p class="post-card__excerpt">Tips on ending novels or memoirs effectively. Covers genre conventions, writing the ending first, resolution after climax, avoiding cliffhangers, and knowing when to stop.</p>
+          <div class="post-card__footer">
+            <span class="post-card__author">By <strong>Anne R. Allen</strong></span>
+            <a href="https://annerallen.com/2025/12/writing-the-final-chapter/" class="post-card__read-more">Read More <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+      <!-- Subscribe -->
+      <div class="sidebar-widget subscribe-widget">
+        <h3 class="sidebar-widget__title">Subscribe</h3>
+        <p>Get our weekly writing tips delivered to your inbox every Sunday.</p>
+        <form>
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your email">
+          <button type="submit">Sign Up Now</button>
+        </form>
+        <p class="privacy-note">100% Privacy. We don't spam.</p>
+      </div>
+
+      <!-- Anne's Latest Book -->
+      <div class="sidebar-widget book-widget">
+        <h3 class="sidebar-widget__title">Anne's Latest Book</h3>
+        <a href="https://annerallen.com/books/the-hour-of-the-moth/">
+          <img class="book-widget__cover" src="https://annerallen.com/wp-content/uploads/2025/04/81kJ5sNB35L._SL1500_-556x800.jpg" alt="The Hour of the Moth">
+        </a>
+        <p class="book-widget__book-title">The Hour of the Moth</p>
+        <a href="http://www.amazon.com/dp/B0DS6HDBQ8" class="book-widget__buy-btn">Buy on Amazon</a>
+      </div>
+
+      <!-- Ruth's Latest Book -->
+      <div class="sidebar-widget book-widget">
+        <h3 class="sidebar-widget__title">Ruth's Latest Book</h3>
+        <a href="https://annerallen.com/books/diamonds-are-for-now/">
+          <img class="book-widget__cover" src="https://annerallen.com/wp-content/uploads/2022/06/Diamonds-are-for-Now-501x800.jpg" alt="Diamonds Are For Now">
+        </a>
+        <p class="book-widget__book-title">Diamonds Are For Now</p>
+        <a href="http://www.amazon.com/dp/B0B7KJW6VW" class="book-widget__buy-btn">Buy on Amazon</a>
+      </div>
+
+      <!-- Author Bios -->
+      <div class="sidebar-widget">
+        <h3 class="sidebar-widget__title">About the Authors</h3>
+        <div class="author-bio-mini">
+          <img src="https://annerallen.com/wp-content/uploads/2015/11/anne-r-allen-blog-with-ruth-harris-circle-picture.png" alt="Anne R. Allen">
+          <div>
+            <div class="author-bio-mini__name">Anne R. Allen</div>
+            <div class="author-bio-mini__text">Writes funny mysteries and how-to books for writers. Contributor to Writer's Digest.</div>
+          </div>
+        </div>
+        <div class="author-bio-mini">
+          <img src="https://annerallen.com/wp-content/uploads/2013/03/Ruth-Harris-NYT-best-selling-author-.png" alt="Ruth Harris">
+          <div>
+            <div class="author-bio-mini__name">Ruth Harris</div>
+            <div class="author-bio-mini__text">Million-copy NYT bestselling author, former Big 5 editor and publisher.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Follow -->
+      <div class="sidebar-widget">
+        <h3 class="sidebar-widget__title">Follow Anne</h3>
+        <div class="social-icons">
+          <a href="https://bsky.app/profile/annerallen.bsky.social" aria-label="Bluesky"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg></a>
+          <a href="https://www.facebook.com/Anne-R-Allen-Author-246957215353670/" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://www.linkedin.com/in/anne-r-allen-49326210" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="https://www.pinterest.com/annerallen1/" aria-label="Pinterest"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.3 9.3-.1-.8-.2-2 0-2.9.2-.8 1.3-5.4 1.3-5.4s-.3-.7-.3-1.6c0-1.5.9-2.7 2-2.7.9 0 1.4.7 1.4 1.5 0 .9-.6 2.3-.9 3.6-.3 1.1.5 2 1.6 2 1.9 0 3.4-2 3.4-5 0-2.6-1.9-4.4-4.5-4.4-3.1 0-4.9 2.3-4.9 4.7 0 .9.4 1.9.8 2.5.1.1.1.2.1.3-.1.3-.3 1.1-.3 1.2-.1.2-.2.3-.4.2-1.3-.6-2.1-2.5-2.1-4 0-3.3 2.4-6.3 6.9-6.3 3.6 0 6.4 2.6 6.4 6 0 3.6-2.3 6.5-5.4 6.5-1.1 0-2.1-.6-2.4-1.2l-.7 2.5c-.2.9-.8 2-1.2 2.6.9.3 1.9.4 2.9.4 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg></a>
+          <a href="https://annerallen.com/feed" aria-label="RSS"><svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Categories -->
+      <div class="sidebar-widget">
+        <h3 class="sidebar-widget__title">Categories</h3>
+        <ul class="category-list">
+          <li><a href="archives.html">Writing Craft <span class="count">349</span></a></li>
+          <li><a href="archives.html">The Publishing Business <span class="count">322</span></a></li>
+          <li><a href="archives.html">The Writing Life <span class="count">304</span></a></li>
+          <li><a href="archives.html">Social Media &amp; Marketing <span class="count">210</span></a></li>
+          <li><a href="archives.html">Self-Publishing <span class="count">108</span></a></li>
+          <li><a href="archives.html">Reviews &amp; Rejection <span class="count">100</span></a></li>
+          <li><a href="archives.html">Blogging for Authors <span class="count">89</span></a></li>
+          <li><a href="archives.html">E-Books &amp; Technology <span class="count">70</span></a></li>
+          <li><a href="archives.html">Scams &amp; Alerts <span class="count">56</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Awards -->
+      <div class="sidebar-widget">
+        <h3 class="sidebar-widget__title">Awards &amp; Recognition</h3>
+        <div class="awards-grid">
+          <img src="https://annerallen.com/wp-content/uploads/2015/10/writers-digest-101-best-websites-for-writers-award.jpg" alt="Writers Digest 101 Best Websites">
+          <img src="https://award.bookauthority.org/best-seo-books.png?b=198409078X&c=1&v=6&w=200" alt="BookAuthority Best SEO Books">
+          <img src="https://award.bookauthority.org/best-blogging-books.png?b=198409078X&c=1&v=6&w=200" alt="BookAuthority Best Blogging Books">
+          <img src="https://annerallen.com/wp-content/uploads/2017/08/50-Kickass-Resources.png" alt="50 Kickass Resources">
+        </div>
+      </div>
+
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>About This Blog</h3>
+          <p>Anne R. Allen and Ruth Harris have been helping writers navigate the shifting publishing industry since 2009. From craft tips to scam alerts, we cover everything authors need to thrive.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="books.html">Our Books</a></li>
+            <li><a href="how-to-get-published.html">Get Published</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="guest-bloggers.html">Guest Bloggers</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <ul class="footer-links">
+            <li><a href="https://bsky.app/profile/annerallen.bsky.social">Bluesky</a></li>
+            <li><a href="https://www.facebook.com/Anne-R-Allen-Author-246957215353670/">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/anne-r-allen-49326210">LinkedIn</a></li>
+            <li><a href="https://www.pinterest.com/annerallen1/">Pinterest</a></li>
+            <li><a href="https://www.bookbub.com/profile/anne-r-allen">BookBub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2026 Anne R. Allen and respective authors. Site maintained by <a href="https://natehoffelder.com/">Nate Hoffelder</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple scroll animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'running';
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.animate-in').forEach(el => {
+      el.style.animationPlayState = 'paused';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
